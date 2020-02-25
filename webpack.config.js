@@ -1,11 +1,11 @@
 const path = require('path')
 
-module = {
+module.exports = {
     mode: 'development',
-    entry: './src/header/header.js',
+    entry: './src/src.js',
 
     output:{
-        path: path.resolve(__dirname, './assets'),
+        path: path.resolve(__dirname, './dist'),
         filename: 'main.js'
     }
 }
